@@ -2,15 +2,16 @@
 
 
 <h2>Description</h2>
-At my organization, access to restricted content is controlled with an allow list of IP addresses.
-The "allow_list.txt" file identifies these IP addresses. Also, there is a  remove list which identifies IP addresses that should no longer have access to this content. I create an algorithm that uses Python code to check whether the allow list contains any IP addresses identified on the remove list. If so, I remove those IP addresses from the file containing the allow list.
+The organization I work for wants to make sure their systems are more secure. I have discovered some potential security issues that involve login attempts and employee machines. My job is to examine the organization’s data in their employees and log_in_attempts tables. The following steps provide examples of how I used SQL with filters to respond to this security risk.
+
+
 
 <br />
 
 
 <h2>LanguagesUsed</h2>
 
-- <b>Python</b> 
+- <b>SQL</b> 
 
 
 <h2>Environments Used </h2>
@@ -20,7 +21,7 @@ The "allow_list.txt" file identifies these IP addresses. Also, there is a  remov
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Retrieve after-hours failed login attempts: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
